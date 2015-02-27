@@ -39,5 +39,3 @@ Moving forrward, *rumprun_posix* will eventually replaced with baremetal and man
 All non dependent components are stored within buildrump.sh/src/lib. This means that these components do not require outside NetBSD code to be hosted within rump_server. Thus compiling of these components takes place within this directory stucture.
 
 All depend components need to be found within buildrump.sh/src/sys/... (for source code) and buildrump.sh/src/sys/rump... for the equivalent compilation directory. You must be within the rump subdirectory as there is a Makefile that fetches addition NetBSD code for the compilation to take place.
-
-Robbie Gifford
