@@ -25,4 +25,4 @@ _Such productivity_
 == Rump Components
 
 *It all Stems from NetBSD* +
-Development starts with the *rumprun_posix* link:https://github.com/rumpkernel/rumprun-posix:github[repository].
+Development starts with the *rumprun_posix* link:https://github.com/rumpkernel/rumprun-posix[repository].
