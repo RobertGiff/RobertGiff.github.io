@@ -1,0 +1,14 @@
+= Prints and Directories
+
+== We've got words \(^ . ^)/
+
+Thats right. We have printf statements. rumpuser_dprintf statements to be exact. +
+
+*What does this mean?* +
+All computer programs have a standard output. For software that does not have a GUI, _Graphical User Interface_, this standard output is usually the command terminal. Any new cyberpunk's first program is the famous helloworld program. The goal: Print out "Hello World!" to the standard output. This basic goal  has been achieved for our rump kernel implementation.
+
+*Why Is This Important* +
+While fundemental and useful only for further development and debugging,  attempting to get basic print statements has lead the rump kernel research team to attain serveral more important goals:
+
+- tackle a daunting <<directory structure>>
+- learn how to propperly compile and reinstall <<rump components>> 
