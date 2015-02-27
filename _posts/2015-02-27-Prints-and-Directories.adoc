@@ -25,4 +25,4 @@ _Such productivity_
 == Directory Structure
 
 *It all Stems from NetBSD* +
-Development starts with the *rumprun_posix* link:https://github.com/rumpkernel/rumprun-posix[repository]. Cloning this repository provides code to both run a rumpkernel on a posix based environment (Linux) as well as a code directory for editing the NetBSD components. 
+Development starts with the *rumprun_posix* link:https://github.com/rumpkernel/rumprun-posix[repository]. Cloning this repository provides code to both run a rumpkernel on a posix based environment (Linux) as well as a directory for editing the NetBSD components.
