@@ -32,3 +32,12 @@ This development directory is named *buildrump.sh*. This directory will be used 
 *rumprun_posix* provides the necessary code to comunicate with _rump_server_. It provides _rumpremote_ which connects the the server through a socket. Commands can then be issued through the socket and you can begin to debug and test your components. 
 
 Moving forrward, *rumprun_posix* will eventually replaced with baremetal and many parts of the NetBSD code within *buildrump.sh* will be replaced with Composite equivalent functions, or simply removed for lack of necessity.
+
+=== Technical Notes (Subject to change with further research)
+
+*Compilation* +
+All non dependent components are stored within buildrump.sh/src/lib. This means that these components do not require outside NetBSD code to be hosted within rump_server. Thus compiling of these components takes place within this directory stucture.
+
+All depend components need to be found within buildrump.sh/src/sys/... (for source code) and buildrump.sh/src/sys/rump... for the equivalent compilation directory. You must be within the rump subdirectory as there is a Makefile that fetches addition NetBSD code for the compilation to take place.
+
+Robbie Gifford
