@@ -31,4 +31,4 @@ This development directory is named *buildrump.sh*. This directory will be used 
 
 *rumprun_posix* provides the necessary code to comunicate with _rump_server_. It provides _rumpremote_ which connects the the server through a socket. Commands can then be issued through the socket and you can begin to debug and test your components. 
 
-Moving forrward, *rumprun_posix* will eventually replaced with baremetal and many parts of the NetBSD code within *buildrump.sh* will be replaced with Composite equivalent functions or simply removed from lack of necessity.
+Moving forrward, *rumprun_posix* will eventually replaced with baremetal and many parts of the NetBSD code within *buildrump.sh* will be replaced with Composite equivalent functions, or simply removed for lack of necessity.
