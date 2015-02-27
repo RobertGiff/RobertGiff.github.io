@@ -18,6 +18,10 @@ While fundemental and useful only for further development and debugging,  attemp
 - Learn how to propperly compile and reinstall <<Rump Components>>
 - Setup a working, productive development environment
 
+image::WorkingEnvironment.png[Much Work. Wow.]
+
+_Such productivity_
+
 == Rump Components
 
 
